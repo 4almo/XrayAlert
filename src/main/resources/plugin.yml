@@ -1,0 +1,10 @@
+name: XrayAlert
+version: '${project.version}'
+main: fr.almo.xrayalert.XrayAlert
+api-version: 1.19
+authors: [ almo ]
+description: Anti x-ray moderation plugin.
+commands:
+  xateleport:
+    description: Commande de modération.
+    usage: /xateleport <player>
